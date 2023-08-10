@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    .input-with-icon {
+      position: relative;
+    }
+
+    .input-icon {
+      position: absolute;
+      top: 50%;
+      left: 10px; /* Icon ki positioning ke liye */
+      transform: translateY(-50%);
+    }
+
+    .input-field {
+      padding-left: 30px; /* Icon ke liye left padding */
+    }
+  </style>
+</head>
+<body>
+  <div class="input-with-icon">
+    <span class="input-icon">
+      <!-- Yahan par aapka SVG icon code paste karein -->
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+        <path d="M8 15.464l-.68-.625C3.53 11.194 1.427 8.608 1.427 5.802 1.427 3.468 3.468 1.427 5.802 1.427c1.62 0 3.196.898 4 2.263.804-1.365 2.38-2.263 4-2.263 2.334 0 4.375 2.041 4.375 4.375 0 2.806-2.103 5.392-5.893 8.036L8 15.464z"/>
+      </svg>
+    </span>
+    <input type="text" class="input-field" placeholder="Input field with SVG icon">
+  </div>
+</body>
+</html>
+
